@@ -10,6 +10,11 @@ type Server struct {
 }
 
 func (s *Server) Start() {
+	//1.获取一个TCP的addr
+
+	//2.监听服务器的地址
+
+	//3.阻塞的等待客户端链接，处理客户端链接业务（d读写）
 
 }
 
